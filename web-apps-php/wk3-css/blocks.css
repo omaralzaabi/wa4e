@@ -10,40 +10,58 @@ body {
 /* Here is one of many  CSS rules you will need... */
 #three {
     position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 10em;
-    border: 5px solid orange
-    
+    left: .5em;
+    top: .5em;
+    width: 25%;
+    border: 5px solid orange;
+    padding: 0.5em;
+    font-size: 150%;
 }
 #two {
     position: fixed;
-    right: 0px;
-    top: 0px;
-    width: 10em;
-    border: 5px solid green
+    right: .5em;
+    top: .5em;
+    width: 25%;
+    border: 5px solid green;
+    padding: 0.5em;
+    font-size: 150%;
+
 }
 #one {
     position: fixed;
-    right: 0px;
-    bottom: 0px;
-    width: 10em;
-    border: 5px solid blue
+    right: .5em;
+    bottom: .5em;
+    width: 25%;
+    border: 5px solid blue;
+    padding: 0.5em;
+    font-size: 150%;
+
 }
 #four {
     position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 10em;
-    border: 5px solid yellow
+    left: .5em;
+    bottom: .5em;
+    width: 25%;
+    border: 5px solid yellow;
+    padding: 0.5em;
+    font-size: 150%;
+
 }
 #link {
     position: relative;
-    top: 0px;
-
+    top: .5em;
     text-align: center;
     color: #fefefe;
     background-color: #3d59c6;
     max-width: max-content;
+    padding-left: .2em;
+    padding-right: .2em;
+    padding-bottom: .1em;
+    padding-top: .1em;
     margin: auto;
+    font-size: 150%;
+}
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
 }
